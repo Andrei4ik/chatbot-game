@@ -1,8 +1,9 @@
-var express = require('express'),
-    app = express();
- 
-app.use("/api",require("./api"))
+const express =require("express");
 
-app.listen(3000 ,()=>{
-    console.log("servitor its working");
+const app=express();
+
+app.use("/api",require("./api"));
+
+app.listen(3000, ()=>{
+console.log("servitor working");
 });
