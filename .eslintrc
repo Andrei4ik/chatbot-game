@@ -1,0 +1,61 @@
+{
+    "extends": ["airbnb-base"],
+    "env": {
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "ecmaFeatures": {
+            "globalReturn": true
+        },
+        "globalReturn": true
+    },
+    "rules": {
+        "arrow-body-style": "off",
+        "func-names": "off",
+        "no-nested-ternary": "warn",
+        "no-console": "off",
+        "new-parens": "off",
+        "object-shorthand": "off",
+        "arrow-parens": "off",
+        "object-curly-newline": "off",
+        "func-style": "off",
+        "class-methods-use-this": "off",
+        "comma-dangle": "off",
+        "import/no-dynamic-require": "off",
+        "prefer-destructuring": "off",
+        "no-unused-expressions": "off",
+        "global-require": "off",
+        "no-return-assign": "off",
+        "no-return-await": "off",
+        "no-await-in-loop": "off",
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "prefer-template": "off",
+        "no-confusing-arrow": "off",
+        "no-param-reassign": "off",
+        "no-iterator": "off",
+        "no-plusplus":"off",
+        "no-underscore-dangle":"off",
+        "prefer-rest-params":"off",
+        "no-restricted-syntax":"off",
+        "one-var-declaration-per-line":"off",
+        "consistent-return":"off",
+        "no-else-return":"off",
+        "no-restricted-globals":"off",
+        "no-case-declarations":"off",
+        "no-new-object":"off",
+        "one-var":"off",
+        "guard-for-in":"off",
+        "indent": ["error", 4, {"SwitchCase": 1}],
+        "no-empty":"off",
+        "object-curly-spacing":"off",
+        "max-len": ["error", {
+            "code": 120,
+            "ignoreComments": true,
+            "ignoreStrings": true,
+            "ignoreTemplateLiterals": true} ]
+    }
+}
